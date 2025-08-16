@@ -1,0 +1,11 @@
+.background-effect {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  z-index: -2;
+  width: 100%;
+  background-image: url('assets/bg.svg');
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden;
+}

@@ -1,0 +1,30 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+
+  h3 {
+    font-size: 4vmax;
+    color: #fff;
+    transform: translateY(-2.5vmax);
+    animation: h3FadeIn 1s ease-out forwards;
+    opacity: 0;
+    font-family: Sofia;
+
+    img {
+      width: 3.6vmax;
+      margin-left: 0.3vmax;
+      display: inline-flex;
+      transform: translateY(-0.55vmax);
+    }
+  }
+}
+
+@keyframes h3FadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,31 @@
+.container-cards {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17vmax, 1fr));
+  gap: 2vmax;
+  padding: 2vmax;
+
+  .am-card {
+    border: 0.1vmax solid #000;
+    overflow: hidden  ;
+    aspect-ratio: 16 / 9;
+
+    .am-anchor {
+      padding: 0.7vmax;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center;
+      
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.75vmax;
+      }
+    }
+  }
+}
