@@ -41,7 +41,7 @@ body {
   font-family: 'Sofia';
   font-style: normal;
   font-weight: 400;
-  src: url('./assets/Sofia.ttf') format('truetype');
+  src: url('/assets/Sofia.ttf') format('truetype');
 }
 
 .font-effect-outline {

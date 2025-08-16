@@ -6,7 +6,6 @@ import path from 'path';
 export default defineConfig({
   //Localhost
   // base: './',
-
   //Deploy
   base: '/20-projects-using-js-events/',
 
